@@ -6,6 +6,6 @@ class Game
 
   def play
     @playing = true
-    "Welcome to the Coding game"
+    'Welcome to the Python Coding game'
   end 
 end

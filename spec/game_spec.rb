@@ -14,7 +14,7 @@ describe Game do
   it 'game gives welcome message' do
     game = Game.new
 
-    welcome_message = 'Welcome to the Coding game'
+    welcome_message = 'Welcome to the Python Coding game'
     expect(game.play).to eq welcome_message
   end
 end
