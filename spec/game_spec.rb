@@ -1,8 +1,13 @@
 require 'game'
-describe Game do
+  describe Game do
+    it 'game can start' do
+      game = Game.new
 
-end
+      game.start
 
+      expect(game.playing).to eq true 
+    end 
+  end
 
 
 
