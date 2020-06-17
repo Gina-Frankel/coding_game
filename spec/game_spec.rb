@@ -1,12 +1,25 @@
 require 'game'
   describe Game do
-    it 'game can start' do
-      game = Game.new
+    describe '#play' do
+      it 'game can start' do
+        game = Game.new
 
-      game.start
+        game.play
 
-      expect(game.playing).to eq true 
+        expect(game.playing).to eq true 
+      end 
+
     end 
+    it 'game asks questions' do
+        game = Game.new
+
+        welcome_message = "Welcome to the Coding game"
+        expect(game.play).to eq welcome_message
+
+        
+      
+    end
+ 
   end
 
 

@@ -4,7 +4,8 @@ class Game
     @playing = false
   end
 
-  def start
+  def play
     @playing = true
+    "Welcome to the Coding game"
   end 
 end
