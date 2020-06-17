@@ -1,9 +1,12 @@
 class Question
+
+  attr_reader :questions
   def initialize
+    @questions = "How can you find the length of the string 'cat'?"
     
   end
   def ask
-    question = "How can you find the length of the string 'cat'?"
+    questions 
   end
 
 end
